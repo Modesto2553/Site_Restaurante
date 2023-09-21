@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Menu</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body onload="carregar2()">
+
+<center>
+	<header>
+		<table border="0" width="100%">
+			<tr>
+				<td id="titulo" width="10%"></td>
+				<td id="titulo" width="80%"><center><h1 id="text">Menu completo</h1></center></td>
+				<td id="titulo" width="10%"><img id="tituloimg" onclick="carro()" src="https://cdn-icons-png.flaticon.com/512/34/34562.png?w=740&t=st=1684406759~exp=1684407359~hmac=3eb95940e6fddebce320c0dc10659561ceee92a3e9db180ccad8e7481934ffa4">
+				<div id="divti">0</div></td>
+			</tr>
+		</table>
+		<p>
+			<input type="button"  id="all" value="Tudo" onclick="carregar2()">
+			<input type="button"  id="cafe" value="Cafe da manhã" onclick="cafe()">
+			<input type="button"  id="almoco" value="Almoço" onclick="almoco()">
+			<input type="button"  id="sobremesa" value="Sobremesa" onclick="sobremesa()">
+		</p>
+	</header>
+
+	<section>
+		<table width="100%" border="0">
+			<tr>
+				<td width="20%" id="img1"></td>
+				<td width="30%" id="text1"></td>
+				<td width="20%" id="img2"></td>
+				<td width="30%" id="text2"></td>
+			</tr>
+			<tr>
+				<td width="20%" id="img3"></td>
+				<td width="30%" id="text3"></td>
+				<td width="20%" id="img4"></td>
+				<td width="30%" id="text4"></td>
+			</tr>
+			<tr>
+				<td width="20%" id="img5"></iframe></td>
+				<td width="30%" id="text5"></td>
+				<td width="20%" id="img6"></td>
+				<td width="30%" id="text6"></td>
+			</tr>
+		</table>
+	</section>
+	<p id="frame"></p>
+	<footer>
+		<p>Código: <a href="codigo.txt"><input type="button" value="HTML"></a>
+		<a href="estilo.css"><input type="button" value="CSS"></a>
+		<a href="script.js"><input type="button" value="Javascript"></a>
+		</p>
+	</footer>
+</center>
+
+<script src="script.js"></script>
+</body>
+</html>
